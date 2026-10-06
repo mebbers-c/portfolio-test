@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- EDIT: the text that appears in the browser tab -->
+  <title>Project Title | Your Name</title>
+
+  <!-- This connects the page to your styling file. Keep style.css in the same folder. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ SITE NAVIGATION ============ -->
+  <!-- EDIT: your name, and the links to your other pages -->
+  <nav class="site-nav">
+    <a class="site-name" href="index.html">Your Name</a>
+    <ul>
+      <li><a href="index.html">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="mailto:you@example.com">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- The page has two columns: the title on the left, the content on the right -->
+  <main class="project-layout">
+
+    <!-- ============ LEFT COLUMN: TITLE AND SHORT DESCRIPTION ============ -->
+    <!-- This column stays in place while the right column scrolls (on larger screens). -->
+    <header class="project-intro">
+      <!-- EDIT: the project title -->
+      <h1>Project Title</h1>
+
+      <!-- EDIT: the short description under the title -->
+      <p>A short description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+    </header>
+
+    <!-- ============ RIGHT COLUMN: IMAGES AND DESCRIPTIONS ============ -->
+    <!-- Everything inside this <div> scrolls. Add, remove, or reorder blocks freely. -->
+    <div class="project-content">
+
+      <!-- ----- Picture block -----
+           Right now this is a grey box. To use a real image, delete the
+           <div class="placeholder"> line and put this in its place:
+           <img src="images/your-image.jpg" alt="Describe the image">
+      -->
+      <figure>
+        <div class="placeholder">Image</div>
+      </figure>
+
+      <!-- ----- Text block ----- -->
+      <section>
+        <h2>Overview</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </section>
+
+      <figure>
+        <div class="placeholder">Image</div>
+        <!-- EDIT or delete this caption -->
+        <figcaption>Optional caption for this image.</figcaption>
+      </figure>
+
+      <!-- ----- Two pictures side by side -----
+           Wrap two <figure> blocks in <div class="pair"> -->
+      <div class="pair">
+        <figure>
+          <div class="placeholder tall">Image</div>
+        </figure>
+        <figure>
+          <div class="placeholder tall">Image</div>
+        </figure>
+      </div>
+
+      <section>
+        <h2>Process</h2>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+      </section>
+
+      <figure>
+        <div class="placeholder">Image</div>
+      </figure>
+
+      <section>
+        <h2>Outcome</h2>
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+      </section>
+
+      <!-- ----- Link to the next project ----- -->
+      <!-- EDIT: point this at your next project's page -->
+      <nav class="next-project">
+        <a href="project-two.html">
+          <span>Next project</span>
+          Next Project Title
+        </a>
+      </nav>
+
+    </div>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <!-- EDIT: your name and contact info -->
+    <p>&copy; 2026 Your Name</p>
+    <p><a href="mailto:you@example.com">you@example.com</a></p>
+  </footer>
+
+</body>
+</html>
